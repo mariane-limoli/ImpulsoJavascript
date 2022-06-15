@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introdução Align Content</title>
+    <style>
+        .container{
+            height: 500px;
+            max-width: 500px;
+            display: flex;
+            flex-wrap: wrap;
+            border: 2px solid black
+        }
+        .item{
+            background-color: lightgray;
+            padding: 0 5px;
+            flex: 1;
+            text-align: center;
+            margin: 2px;
+        }
+        .stretch{
+            align-content: stretch;
+        }
+        .center{
+            align-content: center;
+        }
+        .flex-start{
+            align-content: flex-start;
+        }
+        .flex-end{
+            align-content: flex-end;
+        }
+        .space-around{
+            align-content: space-around;
+        }
+        .space-between{
+            align-content: space-between;
+        }
+    </style>
+</head>
+<body>
+    <p>Stretch:</p>
+    <div class="container stretch">
+        <div class="item">Olá</div>
+        <div class="item">Hoje é dia de estudar JavaScript</div>
+        <div class="item">JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web.</div>
+        <div class="item">HTML é a linguagem de marcação que nós usamos para estruturar e dar significado para o nosso conteúdo web. </div>
+        <div class="item">CSS é uma linguagem de regras de estilo que nós usamos para aplicar estilo ao nosso conteúdo HTML. </div>
+        <div class="item">Bom dia</div>
+        <div class="item">retirado da internet</div>
+    </div>
+
+    <p>Center:</p>
+    <div class="container center">
+        <div class="item">Olá</div>
+        <div class="item">Hoje é dia de estudar JavaScript</div>
+        <div class="item">JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web.</div>
+        <div class="item">HTML é a linguagem de marcação que nós usamos para estruturar e dar significado para o nosso conteúdo web. </div>
+        <div class="item">CSS é uma linguagem de regras de estilo que nós usamos para aplicar estilo ao nosso conteúdo HTML. </div>
+        <div class="item">Bom dia</div>
+        <div class="item">retirado da internet</div>
+    </div>
+
+    <p>Flex-Start:</p>
+    <div class="container flex-start">
+        <div class="item">Olá</div>
+        <div class="item">Hoje é dia de estudar JavaScript</div>
+        <div class="item">JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web.</div>
+        <div class="item">HTML é a linguagem de marcação que nós usamos para estruturar e dar significado para o nosso conteúdo web. </div>
+        <div class="item">CSS é uma linguagem de regras de estilo que nós usamos para aplicar estilo ao nosso conteúdo HTML. </div>
+        <div class="item">Bom dia</div>
+        <div class="item">retirado da internet</div>
+    </div>
+
+    <p>Flex-End:</p>
+    <div class="container flex-end">
+        <div class="item">Olá</div>
+        <div class="item">Hoje é dia de estudar JavaScript</div>
+        <div class="item">JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web.</div>
+        <div class="item">HTML é a linguagem de marcação que nós usamos para estruturar e dar significado para o nosso conteúdo web. </div>
+        <div class="item">CSS é uma linguagem de regras de estilo que nós usamos para aplicar estilo ao nosso conteúdo HTML. </div>
+        <div class="item">Bom dia</div>
+        <div class="item">retirado da internet</div>
+    </div>
+
+    <p>Space Around:</p>
+    <div class="container space-around">
+        <div class="item">Olá</div>
+        <div class="item">Hoje é dia de estudar JavaScript</div>
+        <div class="item">JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web.</div>
+        <div class="item">HTML é a linguagem de marcação que nós usamos para estruturar e dar significado para o nosso conteúdo web. </div>
+        <div class="item">CSS é uma linguagem de regras de estilo que nós usamos para aplicar estilo ao nosso conteúdo HTML. </div>
+        <div class="item">Bom dia</div>
+        <div class="item">retirado da internet</div>
+    </div>
+
+    <p>Space Between:</p>
+    <div class="container space-between">
+        <div class="item">Olá</div>
+        <div class="item">Hoje é dia de estudar JavaScript</div>
+        <div class="item">JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web.</div>
+        <div class="item">HTML é a linguagem de marcação que nós usamos para estruturar e dar significado para o nosso conteúdo web. </div>
+        <div class="item">CSS é uma linguagem de regras de estilo que nós usamos para aplicar estilo ao nosso conteúdo HTML. </div>
+        <div class="item">Bom dia</div>
+        <div class="item">retirado da internet</div>
+    </div>
+</body>
+</html>
